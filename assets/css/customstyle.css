@@ -1,0 +1,145 @@
+
+/* Header 
+================================= */
+
+.navbar-top {
+  background: #EC5B5D;
+}
+
+.navbar-main {
+  background: #FFFFFF;
+  color: #000000;
+}
+
+.navbar-main .submenu {
+  background: #EC5B5D;
+}
+
+.carousel-home .carousel-control {
+  background: #EC5B5D;
+}
+
+
+/* home/ about-us 
+================================= */
+
+.about-us-col {
+  background-color: #EC5B5D;
+  background-image: -moz-linear-gradient(290deg, #EC5B5D -25%, #E87476 50%, #EC5B5D 125%);
+  background-image: -webkit-linear-gradient(290deg, #EC5B5D -25%, #E87476 50%, #EC5B5D 125%);
+  background-image: linear-gradient(160deg, #EC5B5D -25%, #E87476 50%, #EC5B5D 125%);
+}
+
+/* home/causes
+================================= */
+.cause {
+  border: 1px solid #EC5B5D;
+}
+
+.cause .cause-progress {
+  border: 1px solid #EC5B5D;
+ }
+
+ .cause .cause-progress .progress-bar {
+  background: #EC5B5D;
+ }
+
+ /* Team 
+================================= */
+.team-member {
+  background: #EC5B5D;
+  border: 1px solid #EC5B5D;
+}
+
+/* footer 
+================================= */
+.main-footer {
+  background: #EC5B5D;
+}
+
+/* Pages/Gallery 
+================================= */
+.contact-items .contact-icon {
+  background: #EC5B5D;
+}
+
+/* =============================================================================
+	Module
+========================================================================== */
+.btn-primary:hover {
+  color: #EC5B5D;
+  border: 1px solid #EC5B5D;
+}
+
+.btn-secondary {
+  color: #EC5B5D;
+}
+.btn-secondary:hover {
+  background: #EC5B5D;
+}
+
+.title-under {
+  background: #EC5B5D;
+}
+
+/* Tabeles
+================================= */
+.table-style-1 thead {
+  background: #EC5B5D;
+}
+.table-style-1 td,
+.table-style-1 th {
+  border-bottom: 1px solid #EC5B5D;
+}
+
+
+.table-style-2 tbody tr:nth-child(even) {
+  background: #EC5B5D;
+}
+.table-style-2 td,
+.table-style-2 th {
+  border-bottom: 1px solid #EC5B5D;
+}
+
+/* Tabs
+================================= */
+.nav-tabs {
+  border-bottom-color: #EC5B5D;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  background: #EC5B5D;
+}
+
+.nav-tabs > li > a:hover {
+  border-color: #EC5B5D #EC5B5D #EC5B5D #115c9b;
+}
+
+/* Accordion
+================================= */
+.panel-default {
+  border-color: #EC5B5D;
+}
+.panel-default > .panel-heading {
+  background: #EC5B5D;
+}
+
+/* Modal
+================================= */
+.modal .modal-header {
+  background: #EC5B5D;
+}
+
+/* Small devices (tablets, 768px and Down) */
+.navbar-main li:hover .submenu li,
+  .navbar-main li:active .submenu li,
+  .navbar-main li:focus .submenu li {
+    border-top-color: #EC5B5D;
+  }
+
+ .carousel-home .carousel-control {
+    background: #EC5B5D;
+  }
+
