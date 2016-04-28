@@ -164,5 +164,18 @@
     color: #000000
 }
 
+.main-footer .footer-main {
+    padding: 15px 0 10px 0;
+}
+
+body {
+  color: #000000;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  background: #115c9b;
+  color: #EC5B5D;
+}
+
 
 
