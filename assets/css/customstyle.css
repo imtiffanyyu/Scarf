@@ -24,14 +24,21 @@
 ================================= */
 
 .about-us-col {
-  background-color: #EC5B5D;
-  background-image: -moz-linear-gradient(290deg, #EC5B5D -25%, #E87476 50%, #EC5B5D 125%);
-  background-image: -webkit-linear-gradient(290deg, #EC5B5D -25%, #E87476 50%, #EC5B5D 125%);
-  background-image: linear-gradient(160deg, #EC5B5D -25%, #E87476 50%, #EC5B5D 125%);
+  background-color: #faebd7;
+  background-image: -moz-linear-gradient(290deg, #faebd7 -25%, #FCF6ED 50%, #faebd7 125%);
+  background-image: -webkit-linear-gradient(290deg, #faebd7 -25%, #FCF6ED 50%, #faebd7 125%);
+  background-image: linear-gradient(160deg, #faebd7 -25%, #FCF6ED 50%, #faebd7 125%);
+  color: #000000;
 }
+
+#faebd7
 
 /* home/causes
 ================================= */
+.btn-primary {
+  background-color: #EC5B5D;
+}
+
 .cause {
   border: 1px solid #EC5B5D;
 }
@@ -142,4 +149,20 @@
  .carousel-home .carousel-control {
     background: #EC5B5D;
   }
+
+  .btn-primary {
+
+    background: #EC5B5D;
+  }
+
+.reasons-col .reasons-titles {
+  background: #EC5B5D;
+}
+
+.reasons-col .on-hover {
+    background: #faebd7;
+    color: #000000
+}
+
+
 
