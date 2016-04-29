@@ -177,5 +177,10 @@ body {
   color: #EC5B5D;
 }
 
+.navbar-static-top {
+  position: static;
+  width: 100%;
+}
+
 
 
