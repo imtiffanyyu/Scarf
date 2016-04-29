@@ -178,8 +178,16 @@ body {
 }
 
 .navbar-static-top {
-  position: static;
+ position: fixed;
   width: 100%;
+}
+
+#footer-list {
+  text-align: center;
+}
+
+#homeCarousel {
+  padding-top: 7em;
 }
 
 
