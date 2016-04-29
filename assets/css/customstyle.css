@@ -12,7 +12,17 @@
 }
 
 .navbar-main .submenu {
-  background: #EC5B5D;
+  background: #EC5B5D !important;
+}
+
+.navbar-main .submenu li {
+  background: #EC5B5D !important;
+  color: #FFFFFF;
+}
+
+.navbar-main .submenu li:hover {
+  background: #faebd7 !important;
+  color: #000000 !important;
 }
 
 .carousel-home .carousel-control {
@@ -189,6 +199,55 @@ body {
 #homeCarousel {
   padding-top: 7em;
 }
+
+.responsive-video {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 200px; overflow: hidden;
+}
+
+
+.responsive-video iframe,
+.responsive-video object,
+.responsive-video embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.page-title {
+  padding-top: 4em;
+}
+
+#length {
+  height: 375px;
+  text-align: center;
+}
+
+.btn-primary {
+/*  position: absolute;
+*/  bottom: 1em;
+}
+
+
+#randombutton{
+  text-align: center;
+  bottom: 0em;
+}
+
+.navbar-toggle {
+  background-color: #d3d3d3
+}
+
+.col-details {
+  min-height: 40% !important;
+}
+
+@media (min-width: 992px) { #tothecenter {
+  width: 50%;
+  }}
 
 
 
