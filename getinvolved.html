@@ -148,7 +148,9 @@
                         Please visit our fundraising page for more information of our SCARF project, as well as our own personal projects that will coincide with SCARF.
                     </p>
                     <p>
+                    <div class="donate-button">
                     <a href="https://www.gofundme.com/scarf" target="_blank" class="btn btn-lg btn-primary">DONATE</a>
+                    </div>
                     </p>
                 </div>
                 <div class="col-md-6">
@@ -238,7 +240,7 @@
 						<b>Sadaka</b> ipsum dolor sit amet, consectetur adipiscing elit. Ut at eros rutrum turpis viverra elementum semper quis ex. Donec lorem nulla .
 					</p> -->
 
-					<div class="contact-items">
+					<div id="contactright" style="display: none;" class="contact-items">
 
 						<ul class="list-unstyled contact-items-list">
 							<li class="contact-item"> <span class="contact-icon"> <i class="fa fa-map-marker"></i></span> Maalderij 8, 1185 ZB Amstelveen</li>
@@ -437,6 +439,11 @@
         
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+        <script>
+        $( document ).ready(function() {
+        $("#contactright").fadeIn(5000);
+        });
+        </script>
 
         <!-- Bootsrap javascript file -->
         <script src="assets/js/bootstrap.min.js"></script>
