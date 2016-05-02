@@ -88,7 +88,7 @@
                   
                   <a class="navbar-brand" href="index.html"><img src="assets/images/Scarf_logo_nav.png" width=130px 
                   alt=""></a>
-                  <a class="navbar-brand" href="index.html"><img src="assets/images/FullNameScarf.png" width=350px 
+                  <a style="display: none;" class="navbar-brand" id="imageappear" href="index.html"><img src="assets/images/FullNameScarf.png" width=350px 
                   alt=""></a>
                   
                 </div>
@@ -464,6 +464,12 @@
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <script>
+            $(document).ready(function() {
+                $("#imageappear").fadeIn(8000)
+            })
         </script>
     </body>
 </html>

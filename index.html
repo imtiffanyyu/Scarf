@@ -90,7 +90,7 @@
                   
                   <a class="navbar-brand" href="index.html"><img src="assets/images/Scarf_logo_nav.png" width=130px 
                   alt=""></a>
-                  <a class="navbar-brand" href="index.html"><img src="assets/images/FullNameScarf.png" width=350px 
+                  <a style="display: none;" class="navbar-brand" id="imageappear" href="index.html"><img src="assets/images/FullNameScarf.png" width=350px 
                   alt=""></a>
                   
                 </div>
@@ -800,12 +800,7 @@
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
 
- <!--     <script>
-    $(function() {
-      $("#header").load("header.html");
-      $("#footer").load("footer.html");
-    });
-    </script> -->
+
 
     <!-- Bootsrap javascript file -->
     <script src="assets/js/bootstrap.min.js"></script>
@@ -824,6 +819,12 @@
         e.src='http://www.google-analytics.com/analytics.js';
         r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
         ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <script>
+      $(document).ready(function() {
+        $("#imageappear").fadeIn(8000)
+      })
     </script>
 
     </body>
