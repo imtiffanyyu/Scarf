@@ -1,0 +1,22 @@
+{
+  "name": "scarf-node",
+  "version": "1.0.0",
+  "description": "![Sadaka screenshot](/screenshot.jpg?raw=true \"Sadaka screenshot\")",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imtiffanyyu/Scarf.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imtiffanyyu/Scarf/issues"
+  },
+  "homepage": "https://github.com/imtiffanyyu/Scarf#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
